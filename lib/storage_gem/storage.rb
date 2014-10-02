@@ -8,11 +8,11 @@ module StorageGem
     end
 
     def load_from_file(file_path)
-      file = File.read(file_path)
+      add(File.read(file_path))
     end
 
     def load_to_file(file_path, input_string)
-      file = File.write(file_path, input_string)
+      File.write(file_path, input_string)
     end
 
     def add(input_string)

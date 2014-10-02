@@ -22,5 +22,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.1.0"
   spec.add_development_dependency "simplecov", "~> 0.9.1"
   spec.add_runtime_dependency "rubyzip", "~> 1.1.6"
-  spec.add_runtime_dependency "spork", "~> 0.9.2"
 end
